@@ -2,7 +2,7 @@ package org.example.model;
 
 import java.io.Serializable;
 
-public class Task {
+public class Task implements Serializable{
     private final String description;
     private boolean completed;
 
